@@ -5,7 +5,7 @@ include 'A'.DIRECTORY_SEPARATOR .'header.php';
 
   if (isset($_SESSION['isLogged'])){
 			
-         echo "Здравейте, това е недовършена задача от един начинаещ, до тук я докарах :/ ако може да разяснение какво следва да направя че нещо се обърках и с кои команди, ще съм ви благодарен за критиката. <a href='destroy.php'>ИЗХОД</a><br />";
+         echo "test <a href='destroy.php'>ИЗХОД</a><br />";
         echo "<a href='upload.php'>Качи нов файл</a>";
          $content = scandir($userPath);
 		
